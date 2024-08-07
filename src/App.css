@@ -1,0 +1,50 @@
+@font-face {
+  font-family: myFont;
+  src: url(./utils/Calculator.ttf);
+}
+
+main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main * {
+  font-family: myFont;
+}
+
+h1{
+  font-size: 3em;
+}
+
+.result-text{
+  font-size: 3.5em;
+}
+
+.calc-text{
+  font-size: 3em;
+}
+
+.calc-container{
+  width: 500px;
+}
+
+button:hover{
+  color: orange !important;
+}
+
+.btn{
+  color: black !important;
+  font-size: 2em;
+  height: 80px;
+}
+
+.button-equal{
+  height: 160px;
+}
+
+p{
+  text-wrap: nowrap;
+  overflow: hidden;
+}
